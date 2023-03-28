@@ -1,0 +1,21 @@
+{
+  "name": "typescript.jam",
+  "version": "0.0.1",
+  "description": "Learn how to use TypeScript the right way",
+  "main": "index.ts",
+  "scripts": {
+    "pretest": "npm install",
+    "test": "npm run test:type && npm run test:report",
+    "test:report": "jest --outputFile=jest-report.json",
+    "test:type": "tsc --noEmit"
+  },
+  "author": "007@hackages.io",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/jest": "^27.0.2",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4"
+  }
+}
