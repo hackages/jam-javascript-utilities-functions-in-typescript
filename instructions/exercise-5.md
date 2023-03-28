@@ -8,7 +8,7 @@
 ### Todo
 
 
-- [ ] Implement the `last` function in the `src/03-last.js`file
+- [ ] Implement the `last` function in the `src/05-last.js`file
 - [ ] The `last` function takes an array and an optional number as parameters, and returns the n last element of that collection.
 
 ```js
